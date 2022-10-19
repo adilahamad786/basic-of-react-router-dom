@@ -6,8 +6,8 @@ import Welcome from "./pages/Welcome";
 function App() {
   return (
     <div>
+      <MainHeader />
       <main>
-        <MainHeader />
         <Routes>
           <Route path="/" element={<h1>The home page.</h1>} />
           <Route path="/welcome" element={<Welcome />} />
