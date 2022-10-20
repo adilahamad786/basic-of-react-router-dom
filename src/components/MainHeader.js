@@ -14,7 +14,7 @@ const MainHeader = () => {
             <NavLink to="/welcome">Welcome</NavLink>
           </li>
           <li>
-            <NavLink to="/product">Product</NavLink>
+            <NavLink to="/products">Product</NavLink>
           </li>
         </ul>
       </nav>
