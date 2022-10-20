@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 import classes from "./MainHeader.module.css";
+import "./style.css";
 
 const MainHeader = () => {
   return (
@@ -8,7 +9,7 @@ const MainHeader = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" >Home</NavLink>
           </li>
           <li>
             <NavLink to="/welcome">Welcome</NavLink>
