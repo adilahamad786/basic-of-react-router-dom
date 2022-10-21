@@ -12,7 +12,7 @@ const Product = () => {
           <Link to="/products/p2">Development book</Link>
         </li>
         <li>
-          <Link to="/products/p2">Dsa Course</Link>
+          <Link to="/products/p3">Dsa Course</Link>
         </li>
       </ul>
     </section>

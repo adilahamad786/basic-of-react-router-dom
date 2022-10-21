@@ -12,7 +12,9 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/welcome" element={<Welcome />} />
+          <Route path="/welcome" element={<Welcome />} >
+            <Route path="new-user" element={<p>Welcome, new user!</p>} />
+          </Route>
           <Route path="/products" element={<Product />} />
           <Route path="/products/:productId" element={<ProductDetails />} />
         </Routes>

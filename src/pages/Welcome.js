@@ -1,10 +1,11 @@
-// import { Route } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Welcome = () => {
   return (
     <section>
       <h1>The welcome page.</h1>
-        {/* <Route path="/welcome/new-user" element={<p>Welcome, new user!</p>} /> */}
+      <Link to='new-user'>Click new user</Link>
+      <Outlet />
     </section>
   );
 };
