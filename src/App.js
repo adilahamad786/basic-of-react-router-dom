@@ -11,7 +11,7 @@ function App() {
       <MainHeader />
       <main>
         <Routes>
-          <Route path="/" element={<Navigate to="welcome/new-user" />} />
+          <Route path="/" element={<Navigate replace to="welcome/new-user" />} />
           <Route path="/welcome" element={<Welcome />} >
             <Route path="new-user" element={<p>Welcome, new user!</p>} />
           </Route>
